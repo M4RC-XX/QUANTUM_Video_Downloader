@@ -1,10 +1,26 @@
 # QUANTUM Video Downloader
 
+<div align="center">
+
+<a href="https://chromewebstore.google.com/detail/amifjioeobkepofkaieinlpleapicoaa" target="_blank" rel="noopener noreferrer">
+  <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQKhXduv1/iNEsLEb3vdWgfZha1BpC.png" alt="Available in the Chrome Web Store" height="60">
+</a>
+
+<br>
+
+<a href="https://chromewebstore.google.com/detail/amifjioeobkepofkaieinlpleapicoaa" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Chrome_Web_Store-Hinzufügen_/_Add_to_Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="In Chrome installieren">
+</a>
+
+<br><br>
+
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-0ea5e9?style=flat-square)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 [![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Attribution-blue?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-1.0.0%20Archer-emerald?style=flat-square)](manifest.json)
 
-Moderne, schlanke Chrome-/Chromium-Erweiterung (Manifest V3) zum Erkennen und Herunterladen von Videos und Audios (MP4, WebM, MKV, HLS/.m3u8, DASH/.mpd) direkt im Browser.
+**Moderne, schlanke Chrome-/Chromium-Erweiterung (Manifest V3) zum Erkennen und Herunterladen von Videos und Audios (MP4, WebM, MKV, HLS/.m3u8, DASH/.mpd) direkt im Browser.**
+
+</div>
 
 ---
 
@@ -21,7 +37,21 @@ Moderne, schlanke Chrome-/Chromium-Erweiterung (Manifest V3) zum Erkennen und He
 - **Downloadchronik:** Optionale, durchsuchbare Chronik mit Domain-Anzeige, Favicon, Abspielen- und Ordner-Buttons.
 - **Vollständige Lokalisierung:** Unterstützt Deutsch, Englisch, Französisch und Spanisch (automatische Erkennung nach `chrome.i18n` oder manuell wählbar).
 
-### Installation (Entwicklermodus)
+### Installation
+
+#### Option 1: Direkt aus dem Chrome Web Store (Empfohlen)
+
+Klicke einfach auf den folgenden Button, um die Erweiterung direkt mit einem Klick in Chrome zu installieren:
+
+<p align="left">
+  <a href="https://chromewebstore.google.com/detail/amifjioeobkepofkaieinlpleapicoaa" target="_blank" rel="noopener noreferrer">
+    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQKhXduv1/iNEsLEb3vdWgfZha1BpC.png" alt="Im Chrome Web Store ansehen" height="54">
+  </a>
+</p>
+
+*Zukünftige Updates werden dadurch automatisch im Hintergrund über den Chrome Web Store installiert.*
+
+#### Option 2: Manuell aus dem Quellcode (Entwicklermodus)
 
 1. Repository klonen oder als ZIP herunterladen und entpacken:
    ```bash
@@ -46,7 +76,21 @@ Moderne, schlanke Chrome-/Chromium-Erweiterung (Manifest V3) zum Erkennen und He
 - **Download History:** Optional searchable history page with domain badges, favicons, open, and folder actions.
 - **Full Localization:** Supports English, German, French, and Spanish using standard `chrome.i18n`.
 
-### Installation (Developer Mode)
+### Installation
+
+#### Option 1: Directly from the Chrome Web Store (Recommended)
+
+Click the button below to install QUANTUM with a single click from the Chrome Web Store:
+
+<p align="left">
+  <a href="https://chromewebstore.google.com/detail/amifjioeobkepofkaieinlpleapicoaa" target="_blank" rel="noopener noreferrer">
+    <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQKhXduv1/iNEsLEb3vdWgfZha1BpC.png" alt="Available in the Chrome Web Store" height="54">
+  </a>
+</p>
+
+*Updates will be installed automatically in the background.*
+
+#### Option 2: From Source (Developer Mode)
 
 1. Clone or download and extract this repository:
    ```bash
