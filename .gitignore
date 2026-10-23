@@ -1,0 +1,17 @@
+# Build & Distribution Archive
+*.zip
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & Log files
+*.log

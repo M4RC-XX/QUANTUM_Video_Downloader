@@ -1,0 +1,263 @@
+{
+  "appName": {
+    "message": "QUANTUM Video Downloader",
+    "description": "Extension name shown in Chrome Web Store and browser UI"
+  },
+  "appShortName": {
+    "message": "QUANTUM",
+    "description": "Short extension name"
+  },
+  "appDescription": {
+    "message": "Detects and downloads videos and audio streams (MP4, WebM, HLS, DASH) in selectable quality and resolution.",
+    "description": "Extension description shown in Chrome Web Store and chrome://extensions"
+  },
+  "langAuto": {
+    "message": "Automatic (Browser language)"
+  },
+  "ytTitle": {
+    "message": "YouTube downloads disabled on Chrome Web Store"
+  },
+  "ytMessage": {
+    "message": "Due to Chrome Web Store policies, extensions are not allowed to download videos directly from YouTube. QUANTUM works without restrictions on other websites."
+  },
+  "detectedSection": {
+    "message": "Detected Streams & Media"
+  },
+  "activeSection": {
+    "message": "Active Downloads"
+  },
+  "completedSection": {
+    "message": "Completed Downloads"
+  },
+  "rename": {
+    "message": "Edit filename"
+  },
+  "download": {
+    "message": "Download"
+  },
+  "downloadAs": {
+    "message": "Save as…"
+  },
+  "modeBoth": {
+    "message": "Video & Audio (combined)"
+  },
+  "modeVideo": {
+    "message": "Video track only"
+  },
+  "modeAudio": {
+    "message": "Audio track only"
+  },
+  "modeBothShort": {
+    "message": "Video + Audio"
+  },
+  "modeVideoShort": {
+    "message": "Video only"
+  },
+  "modeAudioShort": {
+    "message": "Audio only"
+  },
+  "copyUrl": {
+    "message": "Copy direct link"
+  },
+  "urlCopied": {
+    "message": "Direct link copied to clipboard"
+  },
+  "copyFailed": {
+    "message": "Could not copy link"
+  },
+  "downloadStarted": {
+    "message": "Download started"
+  },
+  "hide": {
+    "message": "Collapse"
+  },
+  "show": {
+    "message": "Expand"
+  },
+  "showAll": {
+    "message": "Full History"
+  },
+  "play": {
+    "message": "Open"
+  },
+  "showInFolder": {
+    "message": "Show in folder"
+  },
+  "removeFromList": {
+    "message": "Remove entry from list"
+  },
+  "clearCompleted": {
+    "message": "Clear completed entries (keeps files on disk)"
+  },
+  "clearCompletedShort": {
+    "message": "Clear list"
+  },
+  "clearList": {
+    "message": "Reset detected media"
+  },
+  "openHistory": {
+    "message": "Open download history"
+  },
+  "openDownloadsFolder": {
+    "message": "Open downloads folder"
+  },
+  "settings": {
+    "message": "Open settings"
+  },
+  "noMediaTitle": {
+    "message": "No media detected on this tab yet"
+  },
+  "noMediaSub": {
+    "message": "Start playing a video or stream on the page — detected media will appear here immediately."
+  },
+  "preparing": {
+    "message": "Analyzing stream…"
+  },
+  "segments": {
+    "message": "Segments"
+  },
+  "downloading": {
+    "message": "Downloading…"
+  },
+  "saving": {
+    "message": "Muxing file…"
+  },
+  "done": {
+    "message": "Completed"
+  },
+  "cancelled": {
+    "message": "Cancelled"
+  },
+  "error": {
+    "message": "Failed"
+  },
+  "retry": {
+    "message": "Retry"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "drmError": {
+    "message": "DRM-protected stream — download not possible."
+  },
+  "liveStream": {
+    "message": "LIVE"
+  },
+  "audioOnlyBadge": {
+    "message": "AUDIO"
+  },
+  "videoOnlyBadge": {
+    "message": "VIDEO"
+  },
+  "qualityLabel": {
+    "message": "Quality & Format"
+  },
+  "historyTitle": {
+    "message": "Download History"
+  },
+  "historySubtitle": {
+    "message": "Record of downloaded media files and source domains"
+  },
+  "searchPlaceholder": {
+    "message": "Filter by filename or website…"
+  },
+  "clearHistory": {
+    "message": "Clear entire history"
+  },
+  "disableHistory": {
+    "message": "Pause history recording"
+  },
+  "enableHistory": {
+    "message": "Enable history recording"
+  },
+  "historyEmpty": {
+    "message": "Your download history is currently empty."
+  },
+  "ctxNoMedia": {
+    "message": "No downloadable media detected on this page"
+  },
+  "ctxYoutube": {
+    "message": "YouTube is not supported due to Chrome Web Store policies"
+  },
+  "ctxOpenHistory": {
+    "message": "Open download history"
+  },
+  "ctxClearList": {
+    "message": "Reset detected media for this tab"
+  },
+  "optTitle": {
+    "message": "Settings"
+  },
+  "optSubtitle": {
+    "message": "Configure language, download preferences, and history"
+  },
+  "optGeneral": {
+    "message": "General Preferences"
+  },
+  "optLanguage": {
+    "message": "Interface language"
+  },
+  "optLanguageSub": {
+    "message": "Language used across popup, context menu, and history."
+  },
+  "optDefaultMode": {
+    "message": "Default download mode"
+  },
+  "optDefaultModeSub": {
+    "message": "Default track mode selected for detected media."
+  },
+  "optClearOnNav": {
+    "message": "Reset list on page navigation"
+  },
+  "optClearOnNavSub": {
+    "message": "Automatically clears previous items when navigating to a new page."
+  },
+  "optHistorySection": {
+    "message": "Download History"
+  },
+  "optHistoryEnabled": {
+    "message": "Record download history"
+  },
+  "optHistoryEnabledSub": {
+    "message": "Keep a log of completed downloads and their source website."
+  },
+  "optMaxHistory": {
+    "message": "Maximum history entries"
+  },
+  "optMaxHistorySub": {
+    "message": "Oldest entries are pruned automatically when limit is reached (files on disk remain untouched)."
+  },
+  "optAdvancedSection": {
+    "message": "Stream Engine & Filters"
+  },
+  "optMinSize": {
+    "message": "Minimum media size threshold (KB)"
+  },
+  "optMinSizeSub": {
+    "message": "Ignore tiny sound effects or tracking snippets below this size."
+  },
+  "optConcurrency": {
+    "message": "Parallel segment connections (HLS / DASH)"
+  },
+  "optConcurrencySub": {
+    "message": "Simultaneous segment downloads for streaming media (1–16)."
+  },
+  "optAboutSection": {
+    "message": "About QUANTUM"
+  },
+  "optAuthor": {
+    "message": "Developer"
+  },
+  "optVersion": {
+    "message": "Version"
+  },
+  "optLicense": {
+    "message": "License"
+  },
+  "optLicenseText": {
+    "message": "© Marc Hamm (M4RC-XX). Free redistribution permitted with attribution to the author. Modifications are allowed strictly for personal, private use. Any commercial use by third parties is prohibited."
+  },
+  "optSaved": {
+    "message": "Saved"
+  }
+}

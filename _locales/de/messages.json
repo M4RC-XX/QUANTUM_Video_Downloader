@@ -1,0 +1,263 @@
+{
+  "appName": {
+    "message": "QUANTUM Video Downloader",
+    "description": "Name der Erweiterung im Chrome Web Store und in der Browser-Oberfläche"
+  },
+  "appShortName": {
+    "message": "QUANTUM",
+    "description": "Kurzname der Erweiterung"
+  },
+  "appDescription": {
+    "message": "Erkennt und lädt Videos und Audios (MP4, WebM, HLS, DASH) in wählbarer Qualität und Auflösung herunter.",
+    "description": "Beschreibung der Erweiterung im Chrome Web Store und unter chrome://extensions"
+  },
+  "langAuto": {
+    "message": "Automatisch (Browsersprache)"
+  },
+  "ytTitle": {
+    "message": "YouTube-Downloads im Chrome Web Store deaktiviert"
+  },
+  "ytMessage": {
+    "message": "Aufgrund der Richtlinien des Chrome Web Stores dürfen Erweiterungen keine Videos direkt von YouTube herunterladen. Auf anderen Webseiten steht QUANTUM uneingeschränkt zur Verfügung."
+  },
+  "detectedSection": {
+    "message": "Erkannte Streams & Medien"
+  },
+  "activeSection": {
+    "message": "Aktive Downloads"
+  },
+  "completedSection": {
+    "message": "Abgeschlossene Downloads"
+  },
+  "rename": {
+    "message": "Dateinamen bearbeiten"
+  },
+  "download": {
+    "message": "Herunterladen"
+  },
+  "downloadAs": {
+    "message": "Speichern unter…"
+  },
+  "modeBoth": {
+    "message": "Video & Audio (kombiniert)"
+  },
+  "modeVideo": {
+    "message": "Nur Videospur"
+  },
+  "modeAudio": {
+    "message": "Nur Audiospur"
+  },
+  "modeBothShort": {
+    "message": "Video + Audio"
+  },
+  "modeVideoShort": {
+    "message": "Nur Video"
+  },
+  "modeAudioShort": {
+    "message": "Nur Audio"
+  },
+  "copyUrl": {
+    "message": "Direktlink kopieren"
+  },
+  "urlCopied": {
+    "message": "Direktlink in die Zwischenablage kopiert"
+  },
+  "copyFailed": {
+    "message": "Kopieren nicht möglich"
+  },
+  "downloadStarted": {
+    "message": "Download gestartet"
+  },
+  "hide": {
+    "message": "Ausblenden"
+  },
+  "show": {
+    "message": "Einblenden"
+  },
+  "showAll": {
+    "message": "Gesamte Chronik"
+  },
+  "play": {
+    "message": "Öffnen"
+  },
+  "showInFolder": {
+    "message": "Im Ordner zeigen"
+  },
+  "removeFromList": {
+    "message": "Eintrag aus Liste entfernen"
+  },
+  "clearCompleted": {
+    "message": "Abgeschlossene Einträge leeren (Dateien bleiben erhalten)"
+  },
+  "clearCompletedShort": {
+    "message": "Liste leeren"
+  },
+  "clearList": {
+    "message": "Erkannte Medien zurücksetzen"
+  },
+  "openHistory": {
+    "message": "Downloadchronik öffnen"
+  },
+  "openDownloadsFolder": {
+    "message": "Download-Ordner öffnen"
+  },
+  "settings": {
+    "message": "Einstellungen öffnen"
+  },
+  "noMediaTitle": {
+    "message": "Noch keine Medien auf diesem Tab erkannt"
+  },
+  "noMediaSub": {
+    "message": "Starte die Wiedergabe eines Videos oder Streams – erkannte Medien erscheinen sofort hier."
+  },
+  "preparing": {
+    "message": "Stream wird analysiert…"
+  },
+  "segments": {
+    "message": "Segmente"
+  },
+  "downloading": {
+    "message": "Wird geladen…"
+  },
+  "saving": {
+    "message": "Datei wird zusammengefügt…"
+  },
+  "done": {
+    "message": "Abgeschlossen"
+  },
+  "cancelled": {
+    "message": "Abgebrochen"
+  },
+  "error": {
+    "message": "Fehlgeschlagen"
+  },
+  "retry": {
+    "message": "Erneut starten"
+  },
+  "cancel": {
+    "message": "Abbrechen"
+  },
+  "drmError": {
+    "message": "Kopiergeschützter Stream (DRM) – Download nicht möglich."
+  },
+  "liveStream": {
+    "message": "LIVE"
+  },
+  "audioOnlyBadge": {
+    "message": "AUDIO"
+  },
+  "videoOnlyBadge": {
+    "message": "VIDEO"
+  },
+  "qualityLabel": {
+    "message": "Qualität & Format"
+  },
+  "historyTitle": {
+    "message": "Downloadchronik"
+  },
+  "historySubtitle": {
+    "message": "Verlauf aller heruntergeladenen Medien und Quellseiten"
+  },
+  "searchPlaceholder": {
+    "message": "Dateiname oder Webseite durchsuchen…"
+  },
+  "clearHistory": {
+    "message": "Gesamte Chronik leeren"
+  },
+  "disableHistory": {
+    "message": "Chronik-Aufzeichnung pausieren"
+  },
+  "enableHistory": {
+    "message": "Chronik-Aufzeichnung aktivieren"
+  },
+  "historyEmpty": {
+    "message": "Deine Downloadchronik ist derzeit leer."
+  },
+  "ctxNoMedia": {
+    "message": "Keine herunterladbaren Medien auf dieser Seite erkannt"
+  },
+  "ctxYoutube": {
+    "message": "YouTube wird gemäß Chrome Web Store Richtlinien nicht unterstützt"
+  },
+  "ctxOpenHistory": {
+    "message": "Downloadchronik öffnen"
+  },
+  "ctxClearList": {
+    "message": "Erkannte Medien für diesen Tab zurücksetzen"
+  },
+  "optTitle": {
+    "message": "Einstellungen"
+  },
+  "optSubtitle": {
+    "message": "Konfiguration für Sprache, Download-Verhalten und Chronik"
+  },
+  "optGeneral": {
+    "message": "Allgemeine Einstellungen"
+  },
+  "optLanguage": {
+    "message": "Oberflächensprache"
+  },
+  "optLanguageSub": {
+    "message": "Sprache für Pop-Up, Kontextmenü und Chronik festlegen."
+  },
+  "optDefaultMode": {
+    "message": "Vorausgewählter Modus"
+  },
+  "optDefaultModeSub": {
+    "message": "Standard-Auswahl für neue Medien im Pop-Up."
+  },
+  "optClearOnNav": {
+    "message": "Liste bei Seitenwechsel zurücksetzen"
+  },
+  "optClearOnNavSub": {
+    "message": "Entfernt alte Einträge automatisch, sobald im Tab eine neue URL geladen wird."
+  },
+  "optHistorySection": {
+    "message": "Downloadverlauf & Chronik"
+  },
+  "optHistoryEnabled": {
+    "message": "Downloadverlauf aufzeichnen"
+  },
+  "optHistoryEnabledSub": {
+    "message": "Speichert abgeschlossene Downloads inklusive Quell-Domain in der Chronik."
+  },
+  "optMaxHistory": {
+    "message": "Maximale Anzahl gespeicherter Einträge"
+  },
+  "optMaxHistorySub": {
+    "message": "Älteste Verlaufseinträge werden bei Überschreitung automatisch bereinigt (Dateien bleiben erhalten)."
+  },
+  "optAdvancedSection": {
+    "message": "Stream-Engine & Filter"
+  },
+  "optMinSize": {
+    "message": "Mindestdateigröße für Medienerkennung (KB)"
+  },
+  "optMinSizeSub": {
+    "message": "Filtert winzige Soundeffekte oder Platzhalter-Clips heraus."
+  },
+  "optConcurrency": {
+    "message": "Parallele Stream-Segmente (HLS / DASH)"
+  },
+  "optConcurrencySub": {
+    "message": "Gleichzeitige Verbindungen beim Laden von Stream-Segmenten (1–16)."
+  },
+  "optAboutSection": {
+    "message": "Über QUANTUM"
+  },
+  "optAuthor": {
+    "message": "Entwickler"
+  },
+  "optVersion": {
+    "message": "Version"
+  },
+  "optLicense": {
+    "message": "Lizenz"
+  },
+  "optLicenseText": {
+    "message": "© Marc Hamm (M4RC-XX). Kostenlose Weitergabe unter Namensnennung des Urhebers erlaubt. Änderungen sind ausschließlich für den eigenen, privaten Gebrauch gestattet. Kommerzielle Nutzung durch Dritte ist untersagt."
+  },
+  "optSaved": {
+    "message": "Gespeichert"
+  }
+}

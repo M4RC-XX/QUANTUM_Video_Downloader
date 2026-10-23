@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>QUANTUM Video Downloader</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="q-header">
+    <div class="q-brand">
+      <div class="q-logo-wrap">
+        <img src="../icons/icon32.png" alt="" width="24" height="24">
+      </div>
+      <div class="q-brand-text">
+        <div class="q-brand-row">
+          <span class="q-brand-name">QUANTUM</span>
+          <span id="media-count" class="q-count-badge" hidden>0</span>
+        </div>
+        <span class="q-brand-sub">Video Downloader</span>
+      </div>
+    </div>
+
+    <nav class="q-nav">
+      <button id="btn-folder" class="q-nav-btn" title="Download-Ordner öffnen">
+        <svg viewBox="0 0 24 24"><path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z"/></svg>
+      </button>
+      <button id="btn-history" class="q-nav-btn" title="Downloadchronik öffnen">
+        <svg viewBox="0 0 24 24"><path d="M13 3a9 9 0 0 0-9 9H1l3.89 3.89.07.14L9 12H6a7 7 0 1 1 2.05 4.95l-1.42 1.42A8.96 8.96 0 0 0 13 21a9 9 0 0 0 0-18zm-1 5v5l4.25 2.52.77-1.28-3.52-2.09V8z"/></svg>
+      </button>
+      <button id="btn-clear-completed" class="q-nav-btn" title="Abgeschlossene Einträge leeren">
+        <svg viewBox="0 0 24 24"><path d="M15 16h4v2h-4zm0-8h7v2h-7zm0 4h6v2h-6zM3 18c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2V8H3v10zM14 5h-3l-1-1H6L5 5H2v2h12z"/></svg>
+      </button>
+      <button id="btn-settings" class="q-nav-btn" title="Einstellungen öffnen">
+        <svg viewBox="0 0 24 24"><path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-scroll">
+    <div id="yt-banner" class="q-notice" hidden>
+      <div class="q-notice-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+      </div>
+      <div class="q-notice-body">
+        <div class="q-notice-head">
+          <strong id="yt-title">YouTube-Downloads im Chrome Web Store deaktiviert</strong>
+          <button id="yt-close" class="q-icon-close" title="Schließen">✕</button>
+        </div>
+        <p id="yt-message"></p>
+      </div>
+    </div>
+
+    <div id="active-jobs"></div>
+    <div id="media-list"></div>
+
+    <div id="empty" class="q-empty" hidden>
+      <div class="q-empty-ring">
+        <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm0 16a7 7 0 1 1 7-7 7 7 0 0 1-7 7zm-2-10.5v7l6-3.5-6-3.5z"/></svg>
+      </div>
+      <h3 id="empty-title">Noch keine Medien auf diesem Tab erkannt</h3>
+      <p id="empty-sub">Starte die Wiedergabe eines Videos oder Streams – erkannte Medien erscheinen sofort hier.</p>
+    </div>
+
+    <section id="completed-section" class="q-completed-sec" hidden>
+      <div class="q-sec-header">
+        <div class="q-sec-title-wrap">
+          <span class="q-sec-dot"></span>
+          <span id="completed-label">Abgeschlossene Downloads</span>
+        </div>
+        <div class="q-sec-actions">
+          <button id="btn-show-all-history" class="q-chip-btn">Gesamte Chronik</button>
+          <button id="btn-toggle-completed" class="q-chip-btn">Ausblenden</button>
+        </div>
+      </div>
+      <div id="completed-list"></div>
+    </section>
+  </main>
+
+  <div id="dropdown-portal" class="dropdown-portal" hidden></div>
+  <div id="toast" class="toast" hidden></div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

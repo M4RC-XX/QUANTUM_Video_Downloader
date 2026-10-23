@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>QUANTUM Video Downloader – Einstellungen</title>
+  <style>
+    :root {
+      --bg-deep: #0b0f19;
+      --panel: #151e31;
+      --input-bg: #0f1625;
+      --border: rgba(148, 163, 184, 0.16);
+      --border-strong: rgba(56, 189, 248, 0.38);
+      --text: #f1f5f9;
+      --muted: #8b9bb4;
+      --accent: #0ea5e9;
+      --ok: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at 20% 0%, #162440 0%, var(--bg-deep) 55%);
+      color: var(--text);
+      font: 14px/1.5 "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+    }
+    main {
+      max-width: 720px;
+      margin: 44px auto;
+      padding: 0 22px 48px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 26px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo-box {
+      width: 48px;
+      height: 48px;
+      border-radius: 13px;
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(37, 99, 235, 0.2));
+      border: 1px solid rgba(56, 189, 248, 0.32);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 16px rgba(14, 165, 233, 0.18);
+    }
+    .brand-tag {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      color: #38bdf8;
+    }
+    h1 {
+      margin: 2px 0 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    h2 {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #38bdf8;
+      margin: 26px 0 10px 4px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 4px 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 15px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .row:last-child { border-bottom: 0; }
+    .row small {
+      display: block;
+      color: var(--muted);
+      font-size: 12.5px;
+      margin-top: 3px;
+    }
+    input[type="number"],
+    select {
+      background: var(--input-bg);
+      color: inherit;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 7px 11px;
+      font: inherit;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    input[type="number"] { width: 105px; }
+    select { min-width: 210px; }
+    input[type="number"]:focus,
+    select:focus { border-color: var(--accent); }
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--accent);
+      cursor: pointer;
+    }
+    .btn {
+      background: linear-gradient(135deg, #2563eb, #0ea5e9);
+      color: #fff;
+      border: 0;
+      border-radius: 8px;
+      padding: 7px 16px;
+      font: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(14, 165, 233, 0.25);
+    }
+    .btn:hover { filter: brightness(1.08); }
+    #saved {
+      background: rgba(14, 165, 233, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #7dd3fc;
+      font-weight: 600;
+      font-size: 12.5px;
+      padding: 5px 12px;
+      border-radius: 8px;
+    }
+    #saved:empty { display: none; }
+    .about-link {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .about-link:hover {
+      text-decoration: underline;
+    }
+    .meta-badge {
+      background: rgba(14, 165, 233, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: #7dd3fc;
+      border-radius: 6px;
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">
+        <div class="logo-box">
+          <img src="../icons/icon48.png" width="32" height="32" alt="">
+        </div>
+        <div>
+          <div class="brand-tag">QUANTUM · VIDEO DOWNLOADER</div>
+          <h1 id="lbl-title">Einstellungen</h1>
+        </div>
+      </div>
+      <div id="saved"></div>
+    </header>
+
+    <h2 id="sec-general">Allgemeine Einstellungen</h2>
+    <div class="card">
+      <label class="row">
+        <span>
+          <span id="lbl-language">Oberflächensprache</span>
+          <small id="sub-language">Sprache für Pop-Up, Kontextmenü und Chronik festlegen.</small>
+        </span>
+        <select id="language"></select>
+      </label>
+      <label class="row">
+        <span>
+          <span id="lbl-defaultMode">Vorausgewählter Modus</span>
+          <small id="sub-defaultMode">Standard-Auswahl für neue Medien im Pop-Up.</small>
+        </span>
+        <select id="defaultDownloadMode">
+          <option value="both" id="opt-mode-both">Video &amp; Audio (kombiniert)</option>
+          <option value="video" id="opt-mode-video">Nur Videospur</option>
+          <option value="audio" id="opt-mode-audio">Nur Audiospur</option>
+        </select>
+      </label>
+      <label class="row">
+        <span>
+          <span id="lbl-clearOnNav">Liste bei Seitenwechsel zurücksetzen</span>
+          <small id="sub-clearOnNav">Entfernt alte Einträge automatisch, sobald im Tab eine neue URL geladen wird.</small>
+        </span>
+        <input type="checkbox" id="clearOnNavigate">
+      </label>
+    </div>
+
+    <h2 id="sec-history">Downloadverlauf &amp; Chronik</h2>
+    <div class="card">
+      <label class="row">
+        <span>
+          <span id="lbl-historyEnabled">Downloadverlauf aufzeichnen</span>
+          <small id="sub-historyEnabled">Speichert abgeschlossene Downloads inklusive Quell-Domain in der Chronik.</small>
+        </span>
+        <input type="checkbox" id="historyEnabled">
+      </label>
+      <label class="row">
+        <span>
+          <span id="lbl-maxHistory">Maximale Anzahl gespeicherter Einträge</span>
+          <small id="sub-maxHistory">Älteste Verlaufseinträge werden bei Überschreitung automatisch bereinigt (Dateien bleiben erhalten).</small>
+        </span>
+        <input type="number" id="maxHistoryEntries" min="1" max="10000" step="10">
+      </label>
+      <div class="row">
+        <span>
+          <span id="lbl-openHistory">Downloadchronik</span>
+        </span>
+        <button type="button" id="btn-open-history" class="btn">Downloadchronik öffnen</button>
+      </div>
+    </div>
+
+    <h2 id="sec-advanced">Stream-Engine &amp; Filter</h2>
+    <div class="card">
+      <label class="row">
+        <span>
+          <span id="lbl-minSize">Mindestdateigröße für Medienerkennung (KB)</span>
+          <small id="sub-minSize">Filtert winzige Soundeffekte oder Platzhalter-Clips heraus.</small>
+        </span>
+        <input type="number" id="minSizeKB" min="0" max="102400" step="50">
+      </label>
+      <label class="row">
+        <span>
+          <span id="lbl-concurrency">Parallele Stream-Segmente (HLS / DASH)</span>
+          <small id="sub-concurrency">Gleichzeitige Verbindungen beim Laden von Stream-Segmenten (1–16).</small>
+        </span>
+        <input type="number" id="concurrency" min="1" max="16">
+      </label>
+    </div>
+
+    <h2 id="sec-about">Über QUANTUM</h2>
+    <div class="card">
+      <div class="row">
+        <span id="lbl-author">Entwickler</span>
+        <a href="https://github.com/M4RC-XX" target="_blank" rel="noopener noreferrer" class="about-link">M4RC-XX (Marc Hamm)</a>
+      </div>
+      <div class="row">
+        <span id="lbl-version">Version</span>
+        <span id="val-version" class="meta-badge">1.0.0 Archer</span>
+      </div>
+      <div class="row">
+        <span>
+          <span id="lbl-license">Lizenz</span>
+          <small id="sub-license">© Marc Hamm (M4RC-XX). Kostenlose Weitergabe unter Namensnennung des Urhebers erlaubt. Änderungen sind ausschließlich für den eigenen, privaten Gebrauch gestattet. Kommerzielle Nutzung durch Dritte ist untersagt.</small>
+        </span>
+      </div>
+    </div>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Downloadchronik – QUANTUM Video Downloader</title>
+  <link rel="stylesheet" href="history.css">
+</head>
+<body>
+  <main class="container">
+    <header class="page-head">
+      <div class="brand-wrap">
+        <div class="logo-box">
+          <img src="../icons/icon48.png" width="32" height="32" alt="">
+        </div>
+        <div>
+          <div class="brand-tag">QUANTUM · VIDEO DOWNLOADER</div>
+          <h1 id="page-title">Downloadchronik</h1>
+        </div>
+      </div>
+      <span id="history-count-badge" class="count-badge">0</span>
+    </header>
+
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>
+        <input type="search" id="search-input" placeholder="Dateiname oder Webseite durchsuchen…" autocomplete="off">
+      </div>
+      <button id="btn-toggle-recording" class="toolbar-btn">Chronik-Aufzeichnung pausieren</button>
+      <button id="btn-clear-history" class="toolbar-btn danger">Gesamte Chronik leeren</button>
+    </div>
+
+    <div id="history-list"></div>
+    <div id="empty-state" class="empty-state" hidden>Deine Downloadchronik ist derzeit leer.</div>
+  </main>
+  <script type="module" src="history.js"></script>
+</body>
+</html>

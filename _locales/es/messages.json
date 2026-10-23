@@ -1,0 +1,263 @@
+{
+  "appName": {
+    "message": "QUANTUM Video Downloader",
+    "description": "Nombre de la extensión"
+  },
+  "appShortName": {
+    "message": "QUANTUM",
+    "description": "Nombre corto de la extensión"
+  },
+  "appDescription": {
+    "message": "Detecta y descarga vídeos y transmisiones de audio (MP4, WebM, HLS, DASH) en la calidad y resolución que elijas.",
+    "description": "Descripción de la extensión"
+  },
+  "langAuto": {
+    "message": "Automático (idioma del navegador)"
+  },
+  "ytTitle": {
+    "message": "Descargas de YouTube desactivadas en Chrome Web Store"
+  },
+  "ytMessage": {
+    "message": "Debido a las políticas de Chrome Web Store, las extensiones no pueden descargar vídeos directamente de YouTube. QUANTUM funciona sin restricciones en otros sitios web."
+  },
+  "detectedSection": {
+    "message": "Medios y transmisiones detectados"
+  },
+  "activeSection": {
+    "message": "Descargas activas"
+  },
+  "completedSection": {
+    "message": "Descargas completadas"
+  },
+  "rename": {
+    "message": "Editar nombre de archivo"
+  },
+  "download": {
+    "message": "Descargar"
+  },
+  "downloadAs": {
+    "message": "Guardar como…"
+  },
+  "modeBoth": {
+    "message": "Vídeo y audio (combinados)"
+  },
+  "modeVideo": {
+    "message": "Solo pista de vídeo"
+  },
+  "modeAudio": {
+    "message": "Solo pista de audio"
+  },
+  "modeBothShort": {
+    "message": "Vídeo + Audio"
+  },
+  "modeVideoShort": {
+    "message": "Solo Vídeo"
+  },
+  "modeAudioShort": {
+    "message": "Solo Audio"
+  },
+  "copyUrl": {
+    "message": "Copiar enlace directo"
+  },
+  "urlCopied": {
+    "message": "Enlace directo copiado al portapapeles"
+  },
+  "copyFailed": {
+    "message": "No se pudo copiar el enlace"
+  },
+  "downloadStarted": {
+    "message": "Descarga iniciada"
+  },
+  "hide": {
+    "message": "Ocultar"
+  },
+  "show": {
+    "message": "Mostrar"
+  },
+  "showAll": {
+    "message": "Historial completo"
+  },
+  "play": {
+    "message": "Abrir"
+  },
+  "showInFolder": {
+    "message": "Mostrar en carpeta"
+  },
+  "removeFromList": {
+    "message": "Quitar entrada de la lista"
+  },
+  "clearCompleted": {
+    "message": "Limpiar entradas completadas (conserva los archivos)"
+  },
+  "clearCompletedShort": {
+    "message": "Limpiar lista"
+  },
+  "clearList": {
+    "message": "Restablecer medios detectados"
+  },
+  "openHistory": {
+    "message": "Abrir historial de descargas"
+  },
+  "openDownloadsFolder": {
+    "message": "Abrir carpeta de descargas"
+  },
+  "settings": {
+    "message": "Abrir ajustes"
+  },
+  "noMediaTitle": {
+    "message": "Aún no se han detectado medios en esta pestaña"
+  },
+  "noMediaSub": {
+    "message": "Inicia la reproducción de un vídeo en la página y aparecerá aquí al instante."
+  },
+  "preparing": {
+    "message": "Analizando transmisión…"
+  },
+  "segments": {
+    "message": "Segmentos"
+  },
+  "downloading": {
+    "message": "Descargando…"
+  },
+  "saving": {
+    "message": "Combinando archivo…"
+  },
+  "done": {
+    "message": "Completado"
+  },
+  "cancelled": {
+    "message": "Cancelado"
+  },
+  "error": {
+    "message": "Error"
+  },
+  "retry": {
+    "message": "Reintentar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "drmError": {
+    "message": "Transmisión protegida por DRM — descarga no disponible."
+  },
+  "liveStream": {
+    "message": "EN VIVO"
+  },
+  "audioOnlyBadge": {
+    "message": "AUDIO"
+  },
+  "videoOnlyBadge": {
+    "message": "VÍDEO"
+  },
+  "qualityLabel": {
+    "message": "Calidad y formato"
+  },
+  "historyTitle": {
+    "message": "Historial de descargas"
+  },
+  "historySubtitle": {
+    "message": "Registro de archivos descargados y sitios de origen"
+  },
+  "searchPlaceholder": {
+    "message": "Filtrer por archivo o sitio web…"
+  },
+  "clearHistory": {
+    "message": "Borrar todo el historial"
+  },
+  "disableHistory": {
+    "message": "Pausar registro de historial"
+  },
+  "enableHistory": {
+    "message": "Activar registro de historial"
+  },
+  "historyEmpty": {
+    "message": "Tu historial de descargas está vacío."
+  },
+  "ctxNoMedia": {
+    "message": "No se detectaron medios descargables en esta página"
+  },
+  "ctxYoutube": {
+    "message": "YouTube no es compatible según las políticas de Chrome Web Store"
+  },
+  "ctxOpenHistory": {
+    "message": "Abrir historial de descargas"
+  },
+  "ctxClearList": {
+    "message": "Restablecer medios detectados"
+  },
+  "optTitle": {
+    "message": "Ajustes"
+  },
+  "optSubtitle": {
+    "message": "Configura el idioma, preferencias de descarga e historial"
+  },
+  "optGeneral": {
+    "message": "Preferencias generales"
+  },
+  "optLanguage": {
+    "message": "Idioma de la interfaz"
+  },
+  "optLanguageSub": {
+    "message": "Idioma utilizado en la ventana emergente, menú e historial."
+  },
+  "optDefaultMode": {
+    "message": "Modo de descarga predeterminado"
+  },
+  "optDefaultModeSub": {
+    "message": "Modo preseleccionado para nuevos medios."
+  },
+  "optClearOnNav": {
+    "message": "Restablecer lista al cambiar de página"
+  },
+  "optClearOnNavSub": {
+    "message": "Limpia automáticamente la lista al navegar a otra URL."
+  },
+  "optHistorySection": {
+    "message": "Historial de descargas"
+  },
+  "optHistoryEnabled": {
+    "message": "Guardar historial de descargas"
+  },
+  "optHistoryEnabledSub": {
+    "message": "Registra las descargas completadas y su dominio de origen."
+  },
+  "optMaxHistory": {
+    "message": "Límite de entradas en el historial"
+  },
+  "optMaxHistorySub": {
+    "message": "Las entradas más antiguas se eliminan automáticamente (los archivos no se borran)."
+  },
+  "optAdvancedSection": {
+    "message": "Motor de transmisión y filtros"
+  },
+  "optMinSize": {
+    "message": "Tamaño mínimo de archivo (KB)"
+  },
+  "optMinSizeSub": {
+    "message": "Omitir clips o efectos de sonido muy pequeños."
+  },
+  "optConcurrency": {
+    "message": "Segmentos simultáneos (HLS / DASH)"
+  },
+  "optConcurrencySub": {
+    "message": "Conexiones paralelas al descargar segmentos (1–16)."
+  },
+  "optAboutSection": {
+    "message": "Acerca de QUANTUM"
+  },
+  "optAuthor": {
+    "message": "Desarrollador"
+  },
+  "optVersion": {
+    "message": "Versión"
+  },
+  "optLicense": {
+    "message": "Licencia"
+  },
+  "optLicenseText": {
+    "message": "© Marc Hamm (M4RC-XX). Se permite la redistribución gratuita mencionando al autor. Las modificaciones están permitidas únicamente para uso personal y privado. Queda prohibido cualquier uso comercial por terceros."
+  },
+  "optSaved": {
+    "message": "Guardado"
+  }
+}
