@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://chromewebstore.google.com/detail/amifjioeobkepofkaieinlpleapicoaa" target="_blank" rel="noopener noreferrer">
-  <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQKhXduv1/iNEsLEb3vdWgfZha1BpC.png" alt="Available in the Chrome Web Store" height="60">
+  <img src="https://developer.chrome.com/static/docs/webstore/branding/image/iNEddTyWiMfLSwFD6qGq.png?hl=de" alt="Available in the Chrome Web Store" height="60">
 </a>
 
 <br>
